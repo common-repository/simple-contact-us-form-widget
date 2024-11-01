@@ -1,0 +1,4 @@
+/*! Admin stylesheet */
+#wpbody-content div.wrap div.editwidget form div.widget-inside p span.bg_examples {
+  display: block;
+  margin: 10px 0 0 10px; }

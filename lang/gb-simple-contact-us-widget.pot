@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YP Checkbox Agreement\n"
+"POT-Creation-Date: 2022-03-23 07:36+0100\n"
+"PO-Revision-Date: 2019-11-13 15:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: gregbialowas.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;__;_e\n"
+"X-Poedit-SearchPath-0: classes\n"
+"X-Poedit-SearchPath-1: assets/inc\n"
+
+#: classes/--class-gb-simple-contact-us-widget.php:49
+#: classes/class-gb-simple-contact-us-widget.php:49
+msgid "Simple Contact Us Form Widget"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:50
+#: classes/class-gb-simple-contact-us-widget.php:50
+msgid ""
+"Simple Contact Us Widget to be added to sidebars or footer area, or any "
+"post / page ( as a shortcode )"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:180
+#: classes/class-gb-simple-contact-us-widget.php:181
+msgid "Message from Website."
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:184
+#: classes/class-gb-simple-contact-us-widget.php:185
+msgid "Thank you for contacting us!"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:185
+#: classes/class-gb-simple-contact-us-widget.php:186
+msgid ""
+"We have received your email and we will respond to it as soon as possible."
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:297
+#: classes/class-gb-simple-contact-us-widget.php:303
+msgid "first"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:298
+#: classes/class-gb-simple-contact-us-widget.php:304
+msgid "second"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:299
+#: classes/class-gb-simple-contact-us-widget.php:305
+msgid "third"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:300
+#: classes/class-gb-simple-contact-us-widget.php:306
+msgid "fourth"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:301
+#: classes/class-gb-simple-contact-us-widget.php:307
+msgid "fifth"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:302
+#: classes/class-gb-simple-contact-us-widget.php:308
+msgid "sixth"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:312
+#: classes/class-gb-simple-contact-us-widget.php:320
+msgid "Name"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:312
+#: classes/--class-gb-simple-contact-us-widget.php:324
+#: classes/--class-gb-simple-contact-us-widget.php:339
+#: classes/class-gb-simple-contact-us-widget.php:320
+#: classes/class-gb-simple-contact-us-widget.php:332
+#: classes/class-gb-simple-contact-us-widget.php:347
+msgid "required"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:320
+#: classes/class-gb-simple-contact-us-widget.php:328
+msgid "This field is required"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:324
+#: classes/class-gb-simple-contact-us-widget.php:332
+msgid "Email"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:332
+#: classes/class-gb-simple-contact-us-widget.php:340
+msgid "Email is required"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:334
+#: classes/class-gb-simple-contact-us-widget.php:342
+msgid "Email seems to be incorrect"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:339
+#: classes/class-gb-simple-contact-us-widget.php:347
+msgid "Message"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:347
+#: classes/class-gb-simple-contact-us-widget.php:355
+msgid "Message is required"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:351
+#: classes/class-gb-simple-contact-us-widget.php:359
+msgid "Human verification"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:356
+#, php-format
+msgid ""
+"Re-type %1$s and %2$s character or number from the following string with no "
+"spaces"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:366
+#: classes/class-gb-simple-contact-us-widget.php:374
+msgid "Provide the proper string"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:373
+#: classes/class-gb-simple-contact-us-widget.php:381
+msgid "Submit"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:442
+#: classes/class-gb-simple-contact-us-widget.php:450
+msgid "-- default --"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:443
+#: classes/class-gb-simple-contact-us-widget.php:451
+msgid "Shades of RED"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:444
+#: classes/class-gb-simple-contact-us-widget.php:452
+msgid "Shades of GREEN"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:445
+#: classes/class-gb-simple-contact-us-widget.php:453
+msgid "Shades of BLUE"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:446
+#: classes/class-gb-simple-contact-us-widget.php:454
+msgid "Shades of WHITE"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:447
+#: classes/class-gb-simple-contact-us-widget.php:455
+msgid "Shades of BLACK"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:450
+#: classes/class-gb-simple-contact-us-widget.php:458
+msgid "Widget`s title"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:451
+#: classes/class-gb-simple-contact-us-widget.php:459
+msgid "default"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:467
+#: classes/class-gb-simple-contact-us-widget.php:475
+msgid "To view examples of different backgrounds and/or shortcode usage"
+msgstr ""
+
+#: classes/--class-gb-simple-contact-us-widget.php:469
+#: classes/class-gb-simple-contact-us-widget.php:477
+msgid "please follow this link"
+msgstr ""
+
+#: classes/class-gb-simple-contact-us-widget.php:163
+msgid "( Hit 'Reply' button to answer )."
+msgstr ""
+
+#: classes/class-gb-simple-contact-us-widget.php:309
+msgid "seventh"
+msgstr ""
+
+#: classes/class-gb-simple-contact-us-widget.php:310
+msgid "eighth"
+msgstr ""
+
+#: classes/class-gb-simple-contact-us-widget.php:364
+#, php-format
+msgid ""
+"Re-type %1$s and %2$s character or number from the following string with no "
+"spaces (the string is case sensitive)"
+msgstr ""

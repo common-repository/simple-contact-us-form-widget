@@ -1,0 +1,218 @@
+/*! Front stylesheet */
+#contact_us_form_widget {
+  font-size: 10pt;
+  /* required error - if field is empty */ }
+  #contact_us_form_widget input, #contact_us_form_widget textarea {
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    background: rgba(6, 43, 58, 0.7);
+    border: 1px solid #096082;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    display: block; }
+  #contact_us_form_widget input[type="submit"] {
+    width: 80%;
+    background: rgba(16, 83, 145, 0.8);
+    color: #bbbae9;
+    padding: 5px 10px;
+    transition: all 200ms ease-out;
+    display: block;
+    margin: 15px auto 0; }
+  #contact_us_form_widget input[type="submit"]:hover {
+    background: #11485d; }
+  #contact_us_form_widget #first_name {
+    position: absolute;
+    left: -999em;
+    height: 0; }
+  #contact_us_form_widget .contact_us_form_widget__label {
+    margin: 0;
+    color: #bbb5d3; }
+  #contact_us_form_widget .req_field {
+    font-size: .8em;
+    color: #626280;
+    display: inline-block;
+    margin: 0 0 3px 3px;
+    border-radius: 5px;
+    padding: 3px 8px;
+    background: rgba(0, 0, 0, 0.3); }
+  #contact_us_form_widget .contact_us_form_widget__f_req {
+    background: rgba(20, 40, 58, 0.7);
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-top: 3px;
+    display: inline-block;
+    text-shadow: 1px 1px 3px #000; }
+  #contact_us_form_widget .contact_us_form_widget__form_validation {
+    background: rgba(9, 2, 27, 0.2);
+    padding: 20px 15px 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 15px; }
+  #contact_us_form_widget .contact_us_form_widget__form_validation:before {
+    content: "[ " attr(title) " ]";
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    color: #626280; }
+  #contact_us_form_widget .contact_us_form_widget__move_slightly_to_right {
+    margin: 0;
+    display: block;
+    font-size: 2.2em;
+    color: #626280;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px; }
+  #contact_us_form_widget .contact_us_form_widget__instruction {
+    color: rgba(220, 220, 220, 0.9); }
+    #contact_us_form_widget .contact_us_form_widget__instruction b {
+      color: #fff;
+      margin: 0 7px; }
+  #contact_us_form_widget.red input, #contact_us_form_widget.red textarea {
+    color: #e6cfbb;
+    background: rgba(39, 4, 4, 0.7);
+    border: 1px solid rgba(165, 79, 79, 0.7); }
+  #contact_us_form_widget.red input[type="submit"] {
+    background: rgba(39, 4, 4, 0.7);
+    color: #e2c2c2; }
+  #contact_us_form_widget.red input[type="submit"]:hover {
+    background: #220303; }
+  #contact_us_form_widget.red .contact_us_form_widget__label {
+    color: #d4b8b8; }
+  #contact_us_form_widget.red .req_field {
+    color: #948080;
+    background: rgba(41, 13, 13, 0.5); }
+  #contact_us_form_widget.red .f_req {
+    background: red;
+    color: #fff;
+    border: 1px solid #700000;
+    text-shadow: 1px 1px 3px #000; }
+  #contact_us_form_widget.red .contact_us_form_widget__form_validation {
+    background: rgba(41, 13, 13, 0.3); }
+  #contact_us_form_widget.red .contact_us_form_widget__form_validation:before {
+    color: #948080; }
+  #contact_us_form_widget.red .contact_us_form_widget__move_slightly_to_right {
+    color: #948080; }
+  #contact_us_form_widget.green input, #contact_us_form_widget.green textarea {
+    color: #cbe6bb;
+    background: rgba(4, 39, 17, 0.7);
+    border: 1px solid rgba(79, 165, 83, 0.7); }
+  #contact_us_form_widget.green input[type="submit"] {
+    background: rgba(0, 46, 17, 0.8);
+    color: #c5e2c2; }
+  #contact_us_form_widget.green input[type="submit"]:hover {
+    background: #092515; }
+  #contact_us_form_widget.green .contact_us_form_widget__label {
+    color: white; }
+  #contact_us_form_widget.green .req_field {
+    color: #b1c7b4;
+    background: rgba(13, 41, 15, 0.5); }
+  #contact_us_form_widget.green .f_req {
+    background: rgba(34, 2, 2, 0.6);
+    color: red;
+    border: 1px solid red;
+    text-shadow: 1px 1px 3px #000; }
+  #contact_us_form_widget.green .contact_us_form_widget__form_validation {
+    background: rgba(13, 41, 15, 0.3); }
+  #contact_us_form_widget.green .contact_us_form_widget__form_validation:before {
+    color: #b1c7b4; }
+  #contact_us_form_widget.green .contact_us_form_widget__move_slightly_to_right {
+    color: #b1c7b4; }
+  #contact_us_form_widget.white input, #contact_us_form_widget.white textarea {
+    color: #323232;
+    background: rgba(141, 141, 141, 0.7);
+    border: 1px solid rgba(114, 114, 114, 0.7); }
+  #contact_us_form_widget.white input[type="submit"] {
+    background: rgba(22, 22, 22, 0.8);
+    color: #cfcfcf; }
+  #contact_us_form_widget.white input[type="submit"]:hover {
+    background: #202020; }
+  #contact_us_form_widget.white .contact_us_form_widget__label {
+    color: #707070; }
+  #contact_us_form_widget.white .req_field {
+    color: #8f8f8f;
+    background: rgba(179, 179, 179, 0.5); }
+  #contact_us_form_widget.white .f_req {
+    background: rgba(131, 0, 0, 0.8);
+    color: white;
+    border: 1px solid #631111;
+    text-shadow: 1px 1px 3px transparent; }
+  #contact_us_form_widget.white .contact_us_form_widget__form_validation {
+    background: rgba(179, 179, 179, 0.3); }
+  #contact_us_form_widget.white .contact_us_form_widget__form_validation:before {
+    color: #8f8f8f; }
+  #contact_us_form_widget.white .contact_us_form_widget__move_slightly_to_right {
+    color: #8f8f8f; }
+  #contact_us_form_widget.black input, #contact_us_form_widget.black textarea {
+    color: gainsboro;
+    background: rgba(19, 19, 19, 0.7);
+    border: 1px solid rgba(65, 65, 65, 0.7); }
+  #contact_us_form_widget.black input[type="submit"] {
+    background: rgba(5, 5, 5, 0.8);
+    color: #b8b8b8; }
+  #contact_us_form_widget.black input[type="submit"]:hover {
+    background: rgba(3, 3, 3, 0.9); }
+  #contact_us_form_widget.black .contact_us_form_widget__label {
+    color: #adadad; }
+  #contact_us_form_widget.black .req_field {
+    color: #696464;
+    background: rgba(31, 31, 31, 0.7); }
+  #contact_us_form_widget.black .f_req {
+    background: rgba(27, 27, 27, 0.3);
+    color: red;
+    border: 1px solid rgba(204, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px #000; }
+  #contact_us_form_widget.black .contact_us_form_widget__form_validation {
+    background: rgba(31, 31, 31, 0.5); }
+  #contact_us_form_widget.black .contact_us_form_widget__form_validation:before {
+    color: #696464; }
+  #contact_us_form_widget.black .contact_us_form_widget__move_slightly_to_right {
+    color: #696464; }
+  #contact_us_form_widget .reload_form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 20%;
+    z-index: 9;
+    display: none;
+    -moz-transform: translateX(-50%) translateY(-20%);
+    -webkit-transform: translateX(-50%) translateY(-20%);
+    -o-transform: translateX(-50%) translateY(-20%);
+    -ms-transform: translateX(-50%) translateY(-20%);
+    transform: translateX(-50%) translateY(-20%);
+    --clock-color: #fb9400;
+    --clock-width: 10rem;
+    --clock-radius: calc(var(--clock-width) / 2);
+    --clock-minute-length: calc(var(--clock-width) * 0.4);
+    --clock-hour-length: calc(var(--clock-width) * 0.2);
+    --clock-thickness: .5rem;
+    justify-content: center;
+    align-items: center;
+    width: var(--clock-width);
+    height: var(--clock-width);
+    border: 8px solid var(--clock-color);
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.5); }
+    #contact_us_form_widget .reload_form::before, #contact_us_form_widget .reload_form::after {
+      position: absolute;
+      content: "";
+      top: calc(var(--clock-radius) * 0.25);
+      width: var(--clock-thickness);
+      background: var(--clock-color);
+      border-radius: 10px;
+      transform-origin: center calc(100% - calc(var(--clock-thickness) / 2));
+      animation: spin infinite linear; }
+    #contact_us_form_widget .reload_form::before {
+      height: var(--clock-minute-length);
+      animation-duration: 2s; }
+    #contact_us_form_widget .reload_form::after {
+      top: calc(var(--clock-radius) * 0.25 + var(--clock-hour-length));
+      height: var(--clock-hour-length);
+      animation-duration: 15s; }
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn); } }
